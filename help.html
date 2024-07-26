@@ -14,31 +14,34 @@
 </p>
 <h2>Reach the next planet</h2>
 <p>
-    Your goal is helping the rocket-ship to reach the next planet. 
+    Your goal is helping the rocket-ship to reach the next planet. Once the planet has been reached, the small planet icon on the right will turn to clickable, allowing you to proceed on the next level.
     <img class="screenshot" src="images/rocket_travel.png"/>
-    The quickest way to do so, it is increasing the income speed, buying generators of income, based on your current money availability.
+    The quickest way to do so, it is increasing the income speed (per second), buying generators of income, based on your current money availability. Income and money are expressed in standard scientific notation.
     <img class="screenshot" src="images/money_income.png"/>
-</p>
-<p>
-    
-</p>
-<p>
-    
-</p>
-<p>
-   
-</p>
-<p>
-    
-</p>
-<h2>...</h2>
-<p>
-</p>
-<h2>...</h2>
-<p>
+    Generators (included in a scrollable list), based on their quantity, hierarchy position and internal level, will increase the income speed, generating more money and helping the rocket to move faster.
+    <img class="screenshot" src="images/sample_generators.png"/>
+    The red quadrant contains the name of the generator and a tracker of the quantity needed of generators, to unlock an income boost once the value is reached. The orange quadrant contains the cost of generators to buy in standard scientific notation. For example, for the <b>Research</b> generator in the image, in order to buy 19 of this generator you will need 3.891e+3 $. When you are able to spend that money, the generator will look clickable without opacity. If there are not enough money to buy it, it will look opaque and not clickable as for the below image. 
+    <img class="screenshot" src="images/not_clickable_generator.png"/>
+    The yellow quadrant contains the current income generated per second by the generator based on its quantity.
+    Both the orange and yellow quadrants include the <b>Lvl</b> label (Level) of the bonus applied on it. These level values can be changed once a bonus for a specific generator is reached. For example, on the below image you will be able to unlock a bonus once 50 Research generators have been bought.
+    <img class="screenshot" src="images/next_goal_generator.png"/>
+    The label will turn to blinking and clickable, opening a dialog.
+    <img class="screenshot" src="images/next_goal_generator_dialog.png"/>
+    These dialog contains random boost for incomes and price cuts for the used generators until that point. Note that these level value will be reset once a new planet travel starts. You can buy generators based on multiplicity: x1, x10, x100, Next, Max using the below button.
+    <img class="screenshot" src="images/buy_multiplier.png"/>
+    The cost quadrant will adapt the price on each generator based on the chosen multiplier.
+    <ul>
+      <li>x1 - adapts the cost to buy one generator</li>
+      <li>x10 - adapts the cost to buy ten generators</li>
+      <li>x100 - adapts the cost to buy one hundred generators</li>
+      <li>Next - adapts the cost to buy the required number to reach the next income boost for that generator</li>
+      <li>Max - adapts the cost to buy as much as you can generators based on the current available money</li>
+    </ul>
 </p>
 <h2>Deck menu</h2>
 <p>
+    The deck menu includes information related to the app, a link to the policy, a link this help page and a <b>Restart the game</b> option.
+    <img class="screenshot" src="images/deck_menu.png"/>
 </p>
 </body>
 </html>
