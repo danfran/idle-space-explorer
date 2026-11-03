@@ -63,11 +63,13 @@
 
 <h2>Your privacy choices and consent</h2>
 <p>
-    The app uses Google’s User Messaging Platform to manage privacy choices for advertising.
-    Where the law requires it, for example in the European Economic Area, the United Kingdom
-    and Switzerland, the app shows Google’s consent message before any ad is requested, and
-    ads are only requested if your choices allow it. Where US state privacy laws apply, Google’s
-    message may offer you a choice to opt out of certain uses of your information for advertising.
+    The app uses Google’s User Messaging Platform (UMP) to manage your privacy choices for
+    advertising. Each time the app starts, UMP determines whether a privacy message is required,
+    for example in the European Economic Area, the United Kingdom and Switzerland. If one is
+    required and you have not yet made your choices, Google’s message is shown; otherwise your
+    saved choices are used. The app requests ads only when the consent system indicates that
+    ads are permitted. Where US state privacy laws apply, Google’s message may offer you a choice
+    to opt out of certain uses of your information for advertising.
 </p>
 <p>
     You can review or change your choices at any time from the app’s Privacy menu
@@ -95,9 +97,12 @@
 
 <h2>Device permissions</h2>
 <p>
-    The app requests only the permissions that the Google Mobile Ads SDK and Android need to show
-    ads: internet and network-state access, and access to the advertising ID and Android’s
-    ad-related services. It does not request location, camera, contacts, storage or phone permissions.
+    The app’s permissions come from the Google Mobile Ads SDK and the supporting Android libraries
+    it uses. They include internet and network-state access and access to the advertising ID and
+    Android’s ad-related services, as well as technical permissions declared by those libraries for
+    their own background work (such as keeping the device awake briefly or running a short background
+    task). The app does not request access to your precise location, contacts, camera, microphone,
+    external storage or phone.
 </p>
 
 <h2>This privacy policy page</h2>
@@ -113,13 +118,15 @@
 <ul>
     <li>
         <strong>Game data</strong> stays on your device until you delete it. Uninstalling the app,
-        or clearing its data in your Android settings, permanently deletes your progress. The same
-        applies to your consent choices, which Google’s consent tool stores on your device.
+        or clearing its data in your Android settings, removes the progress stored on your device.
+        The same applies to your consent choices, which Google’s consent tool stores on your device.
     </li>
     <li>
         <strong>Device backups:</strong> if Android backup is turned on, your device may include the
         app’s data in your own Google backup. That backup is managed by you and Google, and I have no
-        access to it.
+        access to it. A backup may remain after you uninstall the app or clear its data, and Android
+        may use it to restore your progress if you reinstall the app or set up a new device. You can
+        manage or delete backups in your Android or Google account settings.
     </li>
     <li>
         <strong>Advertising data</strong> is retained and deleted by Google according to its policies; see
